@@ -1,0 +1,11 @@
+name: rainbow-authorization-client
+organization: rainbow-industries
+version: 1.0.0
+elevator-pitch: pitch
+engine:
+    node: 12.0.0+
+commands:
+    test: node --no-warnings --experimental-modules ./es-modules/distributed-systems/section-tests/x/bin/run.js ./test/*.js
+npm-convert:
+dev-link:
+    - ../distributed-systems/section-tests
